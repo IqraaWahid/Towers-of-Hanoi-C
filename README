@@ -1,0 +1,12 @@
+Requirement 1:
+Question: towers(5,2,3) invoked
+1) towers(4,2,1)
+2) 31
+3) 2 3
+4) towers(4,1,3)
+
+Question: towers(8,1,2) invoked
+255 lines
+
+Requirement 2:
+I was able to modify the main() function in the towersMain.c to corectly handle the different command-line arguments that the user could input. I modified the main() so that the user can input no arguments, one argument, and three arguments. Once the user inptus their values, they are checked to be within the given bound and then the towers(...) is called using the user's inputs as formal parameters . Furthermore, I also made sure that if the user does input an invalid number of arguments or invalid input for specific variables then the program exits with an error message printed to stderr, without printing anything into stdout.
